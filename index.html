@@ -1,28 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Advice generator app</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Advice generator app</title>
 
-  Advice #<!-- Advice ID goes here -->
+    <style>
+      body {
+        background-color: #212632;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
 
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      h3 {
+        color: #54fea8;
+        font-size: 10px;
+        text-transform: uppercase;
+        padding: 20px 0px 5px;
+      }
+      h2 {
+        color: #cad7e2;
+        font-size: 16px;
+      }
+      .container {
+        background-color: #303b49;
+        max-width: 350px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+      }
+      .text {
+        max-width: 85%;
+        display: block;
+        margin: 0 auto;
+      }
+      .divider {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 40px;
+      }
+
+      .button {
+        position: relative;
+      }
+      button {
+        background-color: #54fea8;
+        border: none;
+        border-radius: 50%;
+        padding: 8px;
+        position: absolute;
+        bottom: -17px;
+        right: 163px;
+        transition: all 0.2s ease-in-out;
+      }
+
+      button:hover {
+        cursor: pointer;
+        box-shadow: 0 0 15px #52feaf;
+      }
+
+      .dice {
+        background-color: #54fea8;
+        width: 10px;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: #cad7e2;
+      }
+      .attribution a {
+        color: #cad7e2;
+        text-decoration: none;
+      }
+      .attribution a:hover {
+        color: #54fea8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        <h3>Advice #<!-- Advice ID goes here --></h3>
+        <h2>Roll the dice to get some advice</h2>
+      </div>
+      <img src="images/pattern-divider-desktop.svg" class="divider" />
+      <div class="button">
+        <button><img src="images/icon-dice.svg" class="dice" /></button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://quirky-bhaskara-5fb46c.netlify.app/index.html">Anni</a>.
+    </div>
+  </body>
 </html>

@@ -13,10 +13,11 @@ h3 {
 h2 {
   color: #cad7e2;
   font-size: 16px;
+  margin-bottom: 30px;
 }
 .container {
   background-color: #303b49;
-  max-width: 350px;
+  width: 500px;
   display: block;
   margin: 0 auto;
   border-radius: 5px;
@@ -24,15 +25,15 @@ h2 {
   margin-bottom: 70px;
 }
 .text {
-  max-width: 85%;
+  width: 85%;
   display: block;
   margin: 0 auto;
 }
 .divider {
-  width: 200px;
+  width: 400px;
   display: block;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 .button {
@@ -42,10 +43,10 @@ button {
   background-color: #54fea8;
   border: none;
   border-radius: 50%;
-  padding: 8px;
+  padding: 10px;
   position: absolute;
-  bottom: -17px;
-  right: 163px;
+  bottom: -23px;
+  right: 230px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -56,7 +57,7 @@ button:hover {
 
 .dice {
   background-color: #54fea8;
-  width: 10px;
+  width: 20px;
 }
 
 .attribution {

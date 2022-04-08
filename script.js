@@ -1,6 +1,6 @@
 function showAdvice(response) {
   let h2Element = document.querySelector("h2");
-  h2Element.innerHTML = `${response.data.slip.advice}`;
+  h2Element.innerHTML = `"${response.data.slip.advice}"`;
 
   let h3Element = document.querySelector("h3");
   h3Element.innerHTML = `Advice #${response.data.slip.id}`;
